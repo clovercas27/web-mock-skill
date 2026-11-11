@@ -1,0 +1,12 @@
+{
+  "name": "web-mock-skills",
+  "interface": {"displayName": "Website Prospect Kit"},
+  "plugins": [
+    {
+      "name": "web-mock-skill",
+      "source": {"source": "local", "path": "./plugins/web-mock-skill"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

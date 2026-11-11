@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Prospect Kit"
+  short_description: "Assess sites, create branded mockups and outreach"
+  default_prompt: "Use $website-prospect-kit to create an assessment, branded HTML mockup and outreach email from this website URL, screenshots and page source."

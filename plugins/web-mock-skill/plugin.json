@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "web-mock-skill",
+  "version": "1.0.0",
+  "description": "Turn a prospect website, screenshots and page source into an assessment, branded HTML proposal and outreach email.",
+  "repository": "https://github.com/clovercas27/web-mock-skill",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Website Prospect Kit",
+        "shortDescription": "Assess a website, build a mockup, draft outreach",
+        "longDescription": "Review a supplied website and brand references, then create an evidence-based assessment, responsive HTML redesign concept, SEO and AI-search opportunities, and an email the user can send.",
+        "category": "Productivity",
+        "defaultPrompt": ["Create a website assessment, branded HTML mockup and outreach email from this URL, screenshots and page source."]
+      }
+    }
+  }
+}
